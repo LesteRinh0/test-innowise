@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link href="https://googleapis.com" rel="stylesheet" />
+    <title>innowise-test</title>
+  </head>
+  <body>
+    <div id="app">
+      <nav>
+        <div class="nav-main-content">
+          <img src="/src/assets/open-book-icon.svg" alt="book logo" />
+          <div class="text-logo">
+            <h1>The Library</h1>
+            <p>Discover your next favorite book</p>
+          </div>
+          <button id="theme-toggle">🌙</button>
+        </div>
+      </nav>
+
+      <div class="main-words">
+        <h1>Discover Your Next Great Read</h1>
+        <p>
+          Search millions of books, build your personal library, and never lose
+          track of what to read
+        </p>
+      </div>
+      <div class="search-bar">
+        <input
+          type="text"
+          placeholder="Search for books by title and author..."
+          id="search-input"
+        />
+
+        <select id="author-select">
+          <option value="all">Все авторы</option>
+        </select>
+
+        <button id="search-button">Search</button>
+      </div>
+    </div>
+
+    <div class="block-wrapper">
+      <div class="books-container"></div>
+
+      <div class="favorite-books">
+        <h3>Your favorites books:</h3>
+      </div>
+    </div>
+
+    <div class="loader-wrapper">
+      <span class="loader"></span>
+    </div>
+
+    <footer>
+      <p>Powered by Open Library</p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
