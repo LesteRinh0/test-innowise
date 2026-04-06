@@ -8,7 +8,7 @@ Follow these steps to set up and start the project:
 
 1.  **Clone the repository**:
     ```bash
-    git clone
+    git clone https://github.com/LesteRinh0/test-innowise
     ```
 2.  **Install dependencies**:
     Make sure you have [Node.js](https://nodejs.org) installed. Run:
